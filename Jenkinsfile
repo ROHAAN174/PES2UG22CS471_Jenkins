@@ -13,13 +13,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'g++ main/hello.cpp -o main/output'
+                sh 'g main/hllo.cpp -o main/output'
             }
         }
 
         stage('Test') {
             steps {
-                // sh './main/output'
+                sh './main/output'
             }
         }
 
