@@ -8,6 +8,6 @@ int main(void) {
   cout << "I have successfully built and run this  \n";
   cout<<"PES2UG22CS471\n";
   cout<<"task4 changes \n";
-  cout<<"hello jenkins pipeline  Task 5\n";
+  cout<<"jenkins pipeline  Task 5\n";
   return 0;
 }
